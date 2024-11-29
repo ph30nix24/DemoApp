@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Image1 from '../../public/Image1.jpg'
+import Image1 from '../../src/assets/image1.jpg'
 const Home = () => {
   return (
     <div className='h-screen'>
