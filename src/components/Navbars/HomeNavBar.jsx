@@ -29,6 +29,7 @@ const HomeNavBar = () => {
     },
 
   ]
+  const [IsHovered, setIsHovered] = useState(false);
   const [Nav, setNav] = useState(false)
   const current = 0
   return (
