@@ -64,7 +64,7 @@ const HomeNavBar = () => {
         >
           <MdCall/>
           <span className={`text-base transition-all duration-500 ease-in-out ${
-      isHovered ? 'opacity-100 scale-100 sm:block' : 'opacity-0 scale-0 sm:hidden'} lg:block lg:bg-transparent lg:opacity-100 lg:scale-100`}>+91 88512 52546</span>
+      IsHovered ? 'opacity-100 scale-100 sm:block' : 'opacity-0 scale-0 sm:hidden'} lg:block lg:bg-transparent lg:opacity-100 lg:scale-100`}>+91 88512 52546</span>
         </button>
       </div>
       
