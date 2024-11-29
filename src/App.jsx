@@ -2,7 +2,9 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Home from './Pages/Home';
 import About from './Pages/About';
-import Contect from './Pages/Contect';
+import ContactUs from './Pages/Contect';
+import Services from './Pages/Services';
+import Blogs from './Pages/Blogs';
 
 function App() {
   return (
@@ -10,7 +12,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contect />} />
+        <Route path="/contact" element={<ContactUs />} />
+        <Route path="/services" element={<Services/>} />
+        <Route path="/blogs" element={<Blogs/>} />
       </Routes>
     </div>
   );
