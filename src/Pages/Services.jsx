@@ -1,5 +1,5 @@
 import React from 'react'
-import ServicesNavbar from '../components/NavBars/ServicesNavbar'
+import ServicesNavbar from '../components/Navbars/ServicesNavBar'
 
 const Services = () => {
   return (
