@@ -58,7 +58,7 @@ const HomeNavBar = () => {
         </div>
       </nav>
       <div>
-        <button className={`sm:flex gap-2 font-para px-3 py-3 items-center hidden bg-transparent backdrop-blur-lg shadow-lg sm:text-2xl sm:bg-black text-slate-100 rounded-full transition-all ease-in-out delay-150 duration-1000 ${setIsHovered ? 'flex' : 'block'} lg:bg-transparent lg:text-[#333] hover:text-slate-100 hover:bg-slate-950`}
+        <button className={`sm:flex gap-2 font-para px-3 py-3 items-center hidden bg-transparent backdrop-blur-lg shadow-lg sm:text-2xl sm:bg-black text-slate-100 rounded-full transition-all ease-in-out delay-150 duration-1000 ${IsHovered ? 'flex' : 'block'} lg:bg-transparent lg:text-[#333] hover:text-slate-100 hover:bg-slate-950`}
          onMouseEnter={() => setIsHovered(true)}
          onMouseLeave={() => setIsHovered(false)}
         >
